@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightslategray;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        nav h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #e2dfdf;
+            text-decoration: none;
+        }
+
+        
+        main {
+            margin-top: 20px;
+        }
+
+        .content {
+            background: #dfdddd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content h1 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #dfdcdc;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #dddbdb;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #3d22a0;
+        }
+
+       
+        @media screen and (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="all-contents">
+        <!-- Navigation -->
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul id="nav-ul">
+                <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+                <li class="nav-li"><a class="nav-a" href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="content">
+                <h1>Portfolio</h1>
+                <ul id="portfolio">
+                    <li><a href="platformerJS.html">Platformer: A cannon-dodging, collectible-grabbing adventure game for Halleb0t</a></li>
+                    <li><a href="clicker.html">Clicker: A clicker game where you click a rubber duck</a></li>
+                     </ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
